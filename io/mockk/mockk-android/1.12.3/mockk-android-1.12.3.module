@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.mockk",
+    "module": "mockk-android",
+    "version": "1.12.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.mockk",
+          "module": "mockk",
+          "version": {
+            "requires": "1.12.3"
+          },
+          "excludes": [
+            {
+              "group": "io.mockk",
+              "module": "mockk-agent-jvm"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "mockk-android-1.12.3.aar",
+          "url": "mockk-android-1.12.3.aar",
+          "size": 1138,
+          "sha512": "1e6e36a9f89b6b85b16df5e8275e9d4a33786157d9f3ab997676a2b3a3fc80e40a8d1bf1615ad1d4c864704b48b8abc34e159c62a6159d57032f1a71572307dc",
+          "sha256": "3ad29a64b6bf8a1ce150f6cda36fdd56dec273a2fbcb169e84ccda6126aa3497",
+          "sha1": "a3647ae85e46485bd378becc4366b49af6c057ac",
+          "md5": "b78fd303aa01bbbdde9c405dd51d0917"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.mockk",
+          "module": "mockk",
+          "version": {
+            "requires": "1.12.3"
+          },
+          "excludes": [
+            {
+              "group": "io.mockk",
+              "module": "mockk-agent-jvm"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.mockk",
+          "module": "mockk-agent-android",
+          "version": {
+            "requires": "1.12.3"
+          }
+        },
+        {
+          "group": "io.mockk",
+          "module": "mockk-agent-api",
+          "version": {
+            "requires": "1.12.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mockk-android-1.12.3.aar",
+          "url": "mockk-android-1.12.3.aar",
+          "size": 1138,
+          "sha512": "1e6e36a9f89b6b85b16df5e8275e9d4a33786157d9f3ab997676a2b3a3fc80e40a8d1bf1615ad1d4c864704b48b8abc34e159c62a6159d57032f1a71572307dc",
+          "sha256": "3ad29a64b6bf8a1ce150f6cda36fdd56dec273a2fbcb169e84ccda6126aa3497",
+          "sha1": "a3647ae85e46485bd378becc4366b49af6c057ac",
+          "md5": "b78fd303aa01bbbdde9c405dd51d0917"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.google.accompanist",
+    "module": "accompanist-flowlayout",
+    "version": "0.25.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "accompanist-flowlayout-0.25.1.aar",
+          "url": "accompanist-flowlayout-0.25.1.aar",
+          "size": 23423,
+          "sha512": "f5a997a4b1694678c831f7114225532df43454f70df7412068e67e3cb40ad6bf1ca40ea31acf6d3a21a8957cd32ecda2b82433c00de4eddd6930a11f524c4f75",
+          "sha256": "162d480c863dcdec86f24556f1d443f2e752b0b15edf41d86a93e9a3968d9bf5",
+          "sha1": "804c989e685769615d72a877c081bcb2a09b5c4a",
+          "md5": "d28b4113482f6767f417995718195828"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "accompanist-flowlayout-0.25.1.aar",
+          "url": "accompanist-flowlayout-0.25.1.aar",
+          "size": 23423,
+          "sha512": "f5a997a4b1694678c831f7114225532df43454f70df7412068e67e3cb40ad6bf1ca40ea31acf6d3a21a8957cd32ecda2b82433c00de4eddd6930a11f524c4f75",
+          "sha256": "162d480c863dcdec86f24556f1d443f2e752b0b15edf41d86a93e9a3968d9bf5",
+          "sha1": "804c989e685769615d72a877c081bcb2a09b5c4a",
+          "md5": "d28b4113482f6767f417995718195828"
+        }
+      ]
+    }
+  ]
+}

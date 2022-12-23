@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.amshove.kluent</groupId>
+  <artifactId>kluent-common</artifactId>
+  <version>1.68</version>
+  <name>kluent-common</name>
+  <description>Fluent Assertion-Library for Kotlin</description>
+  <url>https://github.com/MarkusAmshove/Kluent</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/MarkusAmshove/Kluent/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>markusamshove</id>
+      <name>Markus Amshove</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git:github.com/MarkusAmshove/Kluent.git</connection>
+    <developerConnection>scm:git:git:github.com/MarkusAmshove/Kluent.git</developerConnection>
+    <url>https://github.com/MarkusAmshove/Kluent</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-common</artifactId>
+      <version>1.3.50</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-test-common</artifactId>
+      <version>1.3.50</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-test-annotations-common</artifactId>
+      <version>1.3.50</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

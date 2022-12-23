@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.mockk",
+    "module": "mockk-agent-android",
+    "version": "1.12.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.mockk",
+          "module": "mockk-agent-api",
+          "version": {
+            "requires": "1.12.3"
+          }
+        },
+        {
+          "group": "io.mockk",
+          "module": "mockk-agent-common",
+          "version": {
+            "requires": "1.12.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mockk-agent-android-1.12.3.aar",
+          "url": "mockk-agent-android-1.12.3.aar",
+          "size": 1539154,
+          "sha512": "48ce39290b2fd32e65dd3e389981e2f932c51461965d62dfabf6045d773564b63675ca2bcbef8caa800d184cc61be2d4141a802ecac64b1efe06cbf51399f5ef",
+          "sha256": "3a14b27b3888370a8e6e8af62979efdd87f31451c798a41eca741f68ce7772ab",
+          "sha1": "069e1ef27a8b0d15118810ae59c63a78bd9153c2",
+          "md5": "0be7871939a4fedc979b127bda05251e"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.mockk",
+          "module": "mockk-agent-api",
+          "version": {
+            "requires": "1.12.3"
+          }
+        },
+        {
+          "group": "io.mockk",
+          "module": "mockk-agent-common",
+          "version": {
+            "requires": "1.12.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "com.linkedin.dexmaker",
+          "module": "dexmaker",
+          "version": {
+            "requires": "2.28.1"
+          }
+        },
+        {
+          "group": "org.objenesis",
+          "module": "objenesis",
+          "version": {
+            "requires": "2.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mockk-agent-android-1.12.3.aar",
+          "url": "mockk-agent-android-1.12.3.aar",
+          "size": 1539154,
+          "sha512": "48ce39290b2fd32e65dd3e389981e2f932c51461965d62dfabf6045d773564b63675ca2bcbef8caa800d184cc61be2d4141a802ecac64b1efe06cbf51399f5ef",
+          "sha256": "3a14b27b3888370a8e6e8af62979efdd87f31451c798a41eca741f68ce7772ab",
+          "sha1": "069e1ef27a8b0d15118810ae59c63a78bd9153c2",
+          "md5": "0be7871939a4fedc979b127bda05251e"
+        }
+      ]
+    }
+  ]
+}

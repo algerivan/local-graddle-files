@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.airbnb.android",
+    "module": "mavericks",
+    "version": "2.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mavericks-2.7.0.aar",
+          "url": "mavericks-2.7.0.aar",
+          "size": 293220,
+          "sha512": "81ad3e1653067de9c9f7ae301a061025565a8b1fa353f26dd7f614d161ed0e8b5d05f26a3f9f9675c2643172539a21da60fbad2bc1e917d108e416e9eb0189ec",
+          "sha256": "5d8f0df23a6f8cbb58b1874a48a2794a6241223437a28095c982acf21bd4fabf",
+          "sha1": "e6cc857f3b4f154e7e58e04c1cfa3be3949ea387",
+          "md5": "9eb74e3e60e8aa1b86e196876662bd7a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.3.4"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-savedstate",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common-java8",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mavericks-2.7.0.aar",
+          "url": "mavericks-2.7.0.aar",
+          "size": 293220,
+          "sha512": "81ad3e1653067de9c9f7ae301a061025565a8b1fa353f26dd7f614d161ed0e8b5d05f26a3f9f9675c2643172539a21da60fbad2bc1e917d108e416e9eb0189ec",
+          "sha256": "5d8f0df23a6f8cbb58b1874a48a2794a6241223437a28095c982acf21bd4fabf",
+          "sha1": "e6cc857f3b4f154e7e58e04c1cfa3be3949ea387",
+          "md5": "9eb74e3e60e8aa1b86e196876662bd7a"
+        }
+      ]
+    }
+  ]
+}

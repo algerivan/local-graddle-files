@@ -1,0 +1,68 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.facebook.fbjni",
+    "module": "fbjni",
+    "version": "0.2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.2",
+      "buildId": "oohzvupunferdhwdukvn6gue54"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fbjni-0.2.2.aar",
+          "url": "fbjni-0.2.2.aar",
+          "size": 3943791,
+          "sha512": "967aeaa700767d4c8c0f85007315ef353fab834810888a5f365661a8c73fd0009f49aedc82d9d9832a0d6313c825586f99f33d85ebc4cd84f52ed025d8ea96c7",
+          "sha256": "f609dc043bf788b910727149e175cf4d023f8cbc6b8ecde611c4c7788d66378f",
+          "sha1": "b20ae3406d911a28315b6ab53f122075500bfa27",
+          "md5": "5e7417446d5274084d5aa94afa2b2abe"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.facebook.soloader",
+          "module": "nativeloader",
+          "version": {
+            "requires": "0.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fbjni-0.2.2.aar",
+          "url": "fbjni-0.2.2.aar",
+          "size": 3943791,
+          "sha512": "967aeaa700767d4c8c0f85007315ef353fab834810888a5f365661a8c73fd0009f49aedc82d9d9832a0d6313c825586f99f33d85ebc4cd84f52ed025d8ea96c7",
+          "sha256": "f609dc043bf788b910727149e175cf4d023f8cbc6b8ecde611c4c7788d66378f",
+          "sha1": "b20ae3406d911a28315b6ab53f122075500bfa27",
+          "md5": "5e7417446d5274084d5aa94afa2b2abe"
+        }
+      ]
+    }
+  ]
+}
